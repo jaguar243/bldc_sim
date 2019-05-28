@@ -1,2 +1,2 @@
 # bldc_sim
-Nonlinear simulation of a Brushless DC motor
+Nonlinear simulation of a Brushless DC motor in Python
