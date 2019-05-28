@@ -1,0 +1,21 @@
+electrical:
+  coil_inductance: .4e-3    # (H)
+  coil_resistance: 2.1       # (Ohms)
+  input_voltage: 36         # (V)
+  commutation_phase_diff: 120 # deg
+  num_pole_pairs: 14
+  bemf_constant: 0.8
+
+electro-mechanical:
+  torque_constant: .8       # (N.m/A)
+
+mechanical:
+  damping_ratio: 0.006 
+  rotational_inertia: 0.15  # (kg.m^2)
+  load_torque: 0            # (N.m)
+  min_velocity: 0           # (rad/s)
+  static_friction: 0.0
+  stribeck_friction: 0.0
+  duty_cycle: 1
+
+dynamics_timestep: 0.001     # (s)
